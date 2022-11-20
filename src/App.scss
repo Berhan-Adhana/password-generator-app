@@ -1,0 +1,10 @@
+@import './sass/main.scss';
+.App {
+  text-align: center;
+  display: flex;
+  @include align(center,center);
+  min-width: 100vw;
+  position: relative;
+}
+
+  

@@ -1,0 +1,15 @@
+@import '../../sass/abstracts/_variables.scss';
+.toast{
+    position: absolute;
+    top: 20px;
+    left: 50%;
+    padding: 1rem;
+    z-index: 999;
+    display: none;
+    p{
+      background-color: $grey;
+      color: $off-white;
+      padding: 1rem;
+      border-radius: 10px;
+    }
+  }

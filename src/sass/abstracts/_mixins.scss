@@ -1,0 +1,29 @@
+@import './_variables.scss';
+@mixin align($jc,$ali) {
+    justify-content: $jc;
+    align-items: $ali;  
+}
+
+@mixin strength($length) {
+
+    @if($length>8){
+        background: $strong;
+    }
+
+    @else if($length>=6 and $length<=8){
+        background: $medium;
+    }
+
+    @else if($length>=3 and $length<=6){
+        background: $weak;
+    }
+
+    @else if ($length<3){
+        background: $too-weak; 
+    }
+        width: 5px;
+        height: 20px;
+        margin-right: 3px;
+        display: inline-block;
+     
+}

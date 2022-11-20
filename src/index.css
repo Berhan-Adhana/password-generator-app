@@ -1,0 +1,16 @@
+body {
+  font-weight: 700;
+  font-size: clamp(0.9rem, 4vw + 1rem, 1.12rem);
+  font-family: "JetBrains Mono", monospace;
+}
+
+*, ::after, ::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+a {
+  text-decoration: none;
+}/*# sourceMappingURL=index.css.map */
