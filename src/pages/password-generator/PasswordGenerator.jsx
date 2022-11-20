@@ -79,7 +79,7 @@ const setStrength=()=>{
     <div className="App">
     <Toast show={showToast}/>
      <div className="password-gerenator">
-       <p>Password Generator</p>
+       <p className='title'>Password Generator</p>
        <div className="container">
          <div className="display">
            <p>{password}</p>
